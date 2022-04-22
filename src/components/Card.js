@@ -11,7 +11,7 @@ export default function Card(props) {
     // console.log(props.info.coverImg)
     return (
         <div className="card">
-            {badgeText && <div className="card--badge">{badgeText}</div>}
+            {/* {badgeText && <div className="card--badge">{badgeText}</div>} */}
             <img className="card--image" src={process.env.PUBLIC_URL+"/images/"+props.info.coverImg}/>
             <div className="card--stats">
                 <img className ="card--star" src={process.env.PUBLIC_URL+"/images/star.png"}/>
